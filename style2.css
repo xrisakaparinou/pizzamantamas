@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Smooth scroll effect */
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    overflow-x:hidden ;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100vw;
+    height: 50px;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    background: orange;
+}
+
+section {
+    padding: 100px 20px;
+    height: 100vh;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.2em;
+}
+#home{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display:block;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center; 
+}
+
+#pizza {
+    background-color: #f4f4f4;
+}
+
+#pastas {
+    background-color: #e2e2e2;
+}
+
+#salads {
+    background-color: #d0d0d0;
+}
+
+#drinks {
+    background-color: #bebebe;
+}
+
+
